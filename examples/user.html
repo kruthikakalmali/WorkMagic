@@ -190,62 +190,60 @@
       </div>
       <!-- End Navbar -->
       <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">HERE IS YOUR FORM .THIS FORM CAN BE SHARED WITH THE EMPLOYEED OF YOUR ORGANIZATION TO ENSURE THE ACTIVITES ORGANISED FOR THEM ARE CURATED TO THEIR INTERESTS AND GOALS</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HERE IS YOUR FORM .THIS FORM CAN BE SHARED WITH THE EMPLOYEED OF YOUR ORGANIZATION TO ENSURE THE ACTIVITES ORGANISED FOR THEM ARE CURATED TO THEIR INTERESTS AND GOALS</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>https://workmagic.netlify.com/examples/dashboard.html</p>
+              <br>
+              <p>Unique code (to be shared with employees) : 123252525</p>
+              <br>
+              <p>Secrets code (For admin purposes) : aRtPos</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="modal-body">
-        <p>https://workmagic.netlify.com/examples/dashboard.html</p>
-        <br>
-        <p>Unique code (to be shared with employees) : 123252525</p>
-        <br>
-        <p>Secrets code (For admin purposes) : aRtPos</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+      <!-- End Modal -->
       <div class="content">
         <div class="row">
           <div class="col-md-8">
-            <div class="card">
+            <div class="card" style="text-align: center;">
               <div class="card-header">
-                <h5 class="title">Share the unique form link with your employees and come back here to check the best activities and subscriptions suited to your team </h5>
+                <h4 class="title">Share the unique form link with your employees and come back here to check the best activities and subscriptions suited to your team </h4>
               </div>
-              <div class="card-body">
-       <button class="btn-change6" data-toggle="modal" data-target="#exampleModal">Generate New Survey form</button>
+              <div class="card-body" >
+                <button class="btn-change6" data-toggle="modal" data-target="#exampleModal" style="width: fit-content; padding: 0 50px;"> Generate New Survey form</button>
               </div>
 
               <div class="card-header">
-                <h5 class="title">Alredy have a form and responses collected? Enter your form ID here to get the recommendations</h5>
+                <h4 class="title">Alredy have a form and responses collected? Enter your form ID here to get the recommendations</h4>
               </div>
-              <div class="card-body">
-        
-              <SCRIPT LANGUAGE="JavaScript">
-                function readText (form) {
-                    TestVar =form.inputbox.value;
-                    alert ("You typed: " + TestVar);
-                }
-                function writeText (form) {
-                    form.inputbox.value = "Have a nice day!"
-                }
+              <div class="card-body" style="text-align: center;">     
+                <SCRIPT LANGUAGE="JavaScript">
+                  function readText (form) {
+                      TestVar =form.inputbox.value;
+                      alert ("You typed: " + TestVar);
+                  }
+                  function writeText (form) {
+                      form.inputbox.value = "Have a nice day!"
+                  }
                 </SCRIPT>
-
-<FORM NAME="myform" ACTION="" METHOD="GET">
-  Enter something in the box: <BR>
-  <!-- <INPUT TYPE="text" NAME="inputbox" VALUE=""><P> -->
-    <input type="text"  NAME="inputbox" class="form-control" placeholder="Username" value="michael23">
-  <INPUT TYPE="button" class="btn-change6" NAME="button1" Value="Get recommendations" onClick="readText(this.form)">
-  </FORM>
-</div>
+                <form NAME="myform" ACTION="" METHOD="GET">
+                  Enter form id in the box: <br>
+                  <input type="text"  NAME="inputbox" class="form-control" placeholder="Username" value="michael23" style="margin: auto; width: 50%;"><br>
+                  <input TYPE="button" class="btn-change6" NAME="button1" Value="Get recommendations" onClick="readText(this.form)" style="width: fit-content; padding: 0 50px;">
+                  </form>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
@@ -292,7 +290,7 @@
           <ul class="nav">
             <li class="nav-item">
               <a href="javascript:void(0)" class="nav-link">
-                Creative Tim
+                Work Magic Services Pvt. Ltd.
               </a>
             </li>
             <li class="nav-item">
@@ -310,8 +308,8 @@
             ©
             <script>
               document.write(new Date().getFullYear())
-            </script>2018 made with <i class="tim-icons icon-heart-2"></i> by
-            <a href="javascript:void(0)" target="_blank">Creative Tim</a> for a better web.
+            </script> made with <i class="tim-icons icon-heart-2"></i> by
+            <a href="javascript:void(0)" target="_blank">Team Northstar</a> for a better work place.
           </div>
         </div>
       </footer>
