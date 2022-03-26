@@ -19982,7 +19982,7 @@ Copyright (c) 2015 Daniel Eden
 
 .card .card-header .card-title {
   color: #ffffff;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .card .card-header .card-category {
@@ -20005,6 +20005,7 @@ Copyright (c) 2015 Daniel Eden
 
 .card.card-white .card-title {
   color: #222a42;
+  font-weight: bold;
 }
 
 .card.card-white .card-category,
