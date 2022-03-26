@@ -20513,3 +20513,26 @@ Copyright (c) 2015 Daniel Eden
   border-radius: 30px;
   -webkit-transform: scale(1);
 }
+
+.btn-change8{
+  height: 50px;
+  width: 200px;
+  background: var(--blue);
+  margin: 20px;
+  align-items: center;
+  margin-top: 3px;
+  /* float: left; */
+  border:0px;
+  border-radius: 13px;
+  color:black;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  box-shadow:0px 0 0 #31708f  inset;
+  font-size: large;
+}
+/* .btn-change8:hover{
+  box-shadow:0 0 0 25px #31708f  inset;
+  border-radius: 30px;
+  -webkit-transform: scale(1);
+} */
