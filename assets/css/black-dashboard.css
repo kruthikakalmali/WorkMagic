@@ -14577,7 +14577,7 @@ fieldset[disabled] .btn-link.active {
 }
 
 .footer {
-  padding: 24px 0 24px 250px;
+  padding: 24px 0 24px 0px;
 }
 
 .footer [class*="container-"] {
@@ -14586,7 +14586,6 @@ fieldset[disabled] .btn-link.active {
 
 .footer .nav {
   display: inline-block;
-  float: left;
   margin-bottom: 0;
   padding-left: 30px;
   list-style: none;
@@ -20448,7 +20447,7 @@ Copyright (c) 2015 Daniel Eden
 
 .btn-change6{
   height: 100px;
-  width: 300px;
+  width: 65%;
   background: lightseagreen;
   margin: 20px;
   align-items: center;
@@ -20470,7 +20469,7 @@ Copyright (c) 2015 Daniel Eden
 
 .btn-change8{
   height: 100px;
-  width: 300px;
+  width: 65%;
   background: var(--orange);
   margin: 20px;
   align-items: center;
@@ -20493,7 +20492,7 @@ Copyright (c) 2015 Daniel Eden
 
 .btn-change7{
   height: 100px;
-  width: 300px;
+  width: 65%;
   background: var(--green);
   margin: 20px;
   align-items: center;
