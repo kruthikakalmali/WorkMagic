@@ -183,6 +183,30 @@
         </div>
       </div>
       <!-- End Navbar -->
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">HERE IS YOUR FORM .THIS FORM CAN BE SHARED WITH THE EMPLOYEED OF YOUR ORGANIZATION TO ENSURE THE ACTIVITES ORGANISED FOR THEM ARE CURATED TO THEIR INTERESTS AND GOALS</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>https://workmagic.netlify.com/examples/dashboard.html</p>
+        <br>
+        <p>Unique code (to be shared with employees) : 123252525</p>
+        <br>
+        <p>Secrets code (For admin purposes) : aRtPos</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
       <div class="content">
         <div class="row">
           <div class="col-md-8">
@@ -191,7 +215,7 @@
                 <h5 class="title">Share the unique form link with your employees and come back here to check the best activities and subscriptions suited to your team </h5>
               </div>
               <div class="card-body">
-       <button class="btn-change6">Generate New Survey form</button>
+       <button class="btn-change6" data-toggle="modal" data-target="#exampleModal">Generate New Survey form</button>
               </div>
 
               <div class="card-header">
