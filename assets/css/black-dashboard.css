@@ -4784,10 +4784,10 @@ input[type="button"].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.406813rem;
-  padding-bottom: 0.406813rem;
+  padding-top: 0.206813rem;
+  padding-bottom: 0.206813rem;
   margin-right: 0.9375rem;
-  font-size: 0.99925rem;
+  font-size: 2rem;
   line-height: inherit;
   white-space: nowrap;
 }
@@ -20245,7 +20245,7 @@ Copyright (c) 2015 Daniel Eden
 }
 
 .card-chart .chart-area {
-  height: 220px;
+  height: 520px;
   width: 100%;
 }
 
