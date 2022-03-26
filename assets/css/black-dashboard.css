@@ -20463,8 +20463,7 @@ Copyright (c) 2015 Daniel Eden
   font-size: large;
 }
 .btn-change6:hover{
-  box-shadow:0 0 0 25px #31708f  inset;
-  -webkit-transform: scale(1);
+  background: #31708f;
 }
 
 .btn-change8{
@@ -20485,8 +20484,7 @@ Copyright (c) 2015 Daniel Eden
   font-size: large;
 }
 .btn-change8:hover{
-  box-shadow:0 0 0 25px #31708f  inset;
-  -webkit-transform: scale(1);
+  background: #31708f;
 }
 
 
@@ -20508,9 +20506,7 @@ Copyright (c) 2015 Daniel Eden
   font-size: large;
 }
 .btn-change7:hover{
-  box-shadow:0 0 0 25px #31708f  inset;
-  border-radius: 30px;
-  -webkit-transform: scale(1);
+  background: #31708f;
 }
 
 .btn-change9{
