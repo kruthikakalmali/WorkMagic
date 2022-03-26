@@ -20510,5 +20510,6 @@ Copyright (c) 2015 Daniel Eden
 }
 .btn-change7:hover{
   box-shadow:0 0 0 25px #31708f  inset;
+  border-radius: 30px;
   -webkit-transform: scale(1);
 }
