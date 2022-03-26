@@ -20445,3 +20445,70 @@ Copyright (c) 2015 Daniel Eden
 }
 
 /*# sourceMappingURL=dashboard-free.css.map */
+
+.btn-change6{
+  height: 100px;
+  width: 300px;
+  background: lightseagreen;
+  margin: 20px;
+  align-items: center;
+  margin-top: 3px;
+  /* float: left; */
+  border:0px;
+  border-radius: 13px;
+  color:#fff;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  box-shadow:0px 0 0 #31708f  inset;
+  font-size: large;
+}
+.btn-change6:hover{
+  box-shadow:0 0 0 25px #31708f  inset;
+  -webkit-transform: scale(1);
+}
+
+.btn-change8{
+  height: 100px;
+  width: 300px;
+  background: var(--orange);
+  margin: 20px;
+  align-items: center;
+  margin-top: 3px;
+  /* float: left; */
+  border:0px;
+  border-radius: 13px;
+  color:#fff;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  box-shadow:0px 0 0 #31708f  inset;
+  font-size: large;
+}
+.btn-change8:hover{
+  box-shadow:0 0 0 25px #31708f  inset;
+  -webkit-transform: scale(1);
+}
+
+
+.btn-change7{
+  height: 100px;
+  width: 300px;
+  background: var(--green);
+  margin: 20px;
+  align-items: center;
+  margin-top: 3px;
+  /* float: left; */
+  border:0px;
+  border-radius: 13px;
+  color:#fff;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  box-shadow:0px 0 0 #31708f  inset;
+  font-size: large;
+}
+.btn-change7:hover{
+  box-shadow:0 0 0 25px #31708f  inset;
+  -webkit-transform: scale(1);
+}
