@@ -53,6 +53,19 @@
         </div>
       </nav>
       <!-- End Navbar -->
+      <div class="modal modal-search fade" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: blueviolet; color: white;">
+              CHECKED OUT SUCCESSFULLY
+              <button type="button" class="close" aria-label="Close" style="color: white;"><a style="color: white;" href="dashboard.html">
+                <i class="tim-icons icon-simple-remove"></i>
+              </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="content">
         <div class="row justify-content-center">
           <center>
@@ -71,9 +84,9 @@
                 <div class="text-center">
                   <h4>Max Teams: 3</h4>
                   <h4>Max Activities per Team per Week: 1</h4>
-                  <button class="btn-change7 center"><a style="color: white;" href="./virtual-subscription.html">1 Month<br>200$</a></button>
-                  <button class="btn-change7 center"><a style="color: white;" href="./virtual-subscription.html">3 Months<br>400$</a></button>
-                  <button class="btn-change7 center"><a style="color: white;" href="./virtual-subscription.html">6 Months<br>700$</a></button>
+                  <button class="btn-change7 center" data-toggle="modal" data-target="#checkoutModal">1 Month<br>200$</button>
+                  <button class="btn-change7 center" data-toggle="modal" data-target="#checkoutModal" >3 Months<br>400$</button>
+                  <button class="btn-change7 center" data-toggle="modal" data-target="#checkoutModal">6 Months<br>700$</button>
                 </div>
               </div>
             </div>
@@ -90,9 +103,9 @@
                 <div class="text-center">
                   <h4>Unlimited Teams</h4>
                   <h4>Unlimited Axtivities</h4>
-                  <button class="btn-change8 center"><a style="color: white;" href="./activities.html">3 Month<br>800$</a></button>
-                  <button class="btn-change8 center"><a style="color: white;" href="./activities.html">6 Months<br>1200$</a></button>
-                  <button class="btn-change8 center"><a style="color: white;" href="./activities.html">9 Months<br>1400$</a></button>
+                  <button class="btn-change8 center" data-toggle="modal" data-target="#checkoutModal">3 Month<br>800$</button>
+                  <button class="btn-change8 center" data-toggle="modal" data-target="#checkoutModal">6 Months<br>1200$</button>
+                  <button class="btn-change8 center" data-toggle="modal" data-target="#checkoutModal">9 Months<br>1400$</button>
                 </div>
               </div>
             </div>
@@ -106,9 +119,9 @@
                 <div class="text-center">
                   <h4>Max Teams: 10</h4>
                   <h4>Max Activities per Team per Week: 2</h4>
-                  <button class="btn-change6 center"><a style="color: white;" href="./activities.html">1 Month<br>300$</a></button>
-                  <button class="btn-change6 center"><a style="color: white;" href="./activities.html">3 Months<br>600$</a></button>
-                  <button class="btn-change6 center"><a style="color: white;" href="./activities.html">6 Months<br>900$</a></button>
+                  <button class="btn-change6 center" data-toggle="modal" data-target="#checkoutModal">1 Month<br>300$</button>
+                  <button class="btn-change6 center" data-toggle="modal" data-target="#checkoutModal">3 Months<br>600$</button>
+                  <button class="btn-change6 center" data-toggle="modal" data-target="#checkoutModal">>6 Months<br>900$</button>
                 </div>
               </div>
             </div>
