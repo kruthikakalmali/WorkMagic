@@ -1,18 +1,4 @@
-<!--
-=========================================================
-* * Black Dashboard - v1.0.1
-=========================================================
 
-* Product Page: https://www.creative-tim.com/product/black-dashboard
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +8,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="../assets/img/favicon.png">
   <title>
-    Black Dashboard by Creative Tim
+    Workmagic
   </title>
   <!--     Fonts and icons     -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
@@ -37,76 +23,8 @@
 
 <body class="">
   <div class="wrapper">
-    <!-- <div class="sidebar">
 
-      <div class="sidebar-wrapper">
-        <div class="logo">
-          <a href="javascript:void(0)" class="simple-text logo-mini">
-            CT
-          </a>
-          <a href="javascript:void(0)" class="simple-text logo-normal">
-            Creative Tim
-          </a>
-        </div>
-        <ul class="nav">
-          <li>
-            <a href="./dashboard.html">
-              <i class="tim-icons icon-chart-pie-36"></i>
-              <p>Dashboard</p>
-            </a>
-          </li>
-          <li>
-            <a href="./icons.html">
-              <i class="tim-icons icon-atom"></i>
-              <p>Icons</p>
-            </a>
-          </li>
-          <li>
-            <a href="./map.html">
-              <i class="tim-icons icon-pin"></i>
-              <p>Maps</p>
-            </a>
-          </li>
-          <li>
-            <a href="./notifications.html">
-              <i class="tim-icons icon-bell-55"></i>
-              <p>Notifications</p>
-            </a>
-          </li>
-          <li class="active ">
-            <a href="./user.html">
-              <i class="tim-icons icon-single-02"></i>
-              <p>User Profile</p>
-            </a>
-          </li>
-          <li>
-            <a href="./tables.html">
-              <i class="tim-icons icon-puzzle-10"></i>
-              <p>Table List</p>
-            </a>
-          </li>
-          <li>
-            <a href="./typography.html">
-              <i class="tim-icons icon-align-center"></i>
-              <p>Typography</p>
-            </a>
-          </li>
-          <li>
-            <a href="./rtl.html">
-              <i class="tim-icons icon-world"></i>
-              <p>RTL Support</p>
-            </a>
-          </li>
-          <li class="active-pro">
-            <a href="./upgrade.html">
-              <i class="tim-icons icon-spaceship"></i>
-              <p>Upgrade to PRO</p>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div> -->
-    <div class="main-panel">
+    <div class="main-panel" >
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg navbar-absolute navbar-transparent">
         <div class="container-fluid">
@@ -118,7 +36,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="dashboard.html">WORKMAGIC</a>
+            <a class="navbar-brand" href="./subscriptions.html"><i class="tim-icons icon-minimal-left" ></i><span class="d-lg-none d-md-block">Back</span></a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -128,163 +46,149 @@
           <div class="collapse navbar-collapse" id="navigation">
             <ul class="navbar-nav ml-auto">
               <li class="search-bar input-group">
-                <button class="btn btn-link" ><a href="./activities.html"><i class="tim-icons icon-bullet-list-67" ></i></a></button>
+                <button class="btn btn-link" ><a href="./user.html"><i class="tim-icons icon-simple-remove" ></i><span class="d-lg-none d-md-block">Close</span></a></button>
               </li>
-              <li class="search-bar input-group">
-                <button class="btn btn-link" ><a href="./subscriptions.html"><i class="tim-icons icon-book-bookmark" ></i></a></button>
-              </li>
-              <li class="search-bar input-group">
-                <button class="btn btn-link" id="search-button" data-toggle="modal" data-target="#searchModal"><i class="tim-icons icon-zoom-split" ></i>
-                  <span class="d-lg-none d-md-block">Search</span>
-                </button>
-              </li>
-              <li class="dropdown nav-item">
-                <a href="javascript:void(0)" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                  <div class="notification d-none d-lg-block d-xl-block"></div>
-                  <i class="tim-icons icon-sound-wave"></i>
-                  <p class="d-lg-none">
-                    Notifications
-                  </p>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
-                  <li class="nav-link"><a href="#" class="nav-item dropdown-item">Mike John responded to your email</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">You have 5 more tasks</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Your friend Michael is in town</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another notification</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Another one</a></li>
-                </ul>
-              </li>
-              <li class="dropdown nav-item">
-                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                  <div class="photo">
-                    <img src="../assets/img/anime3.png" alt="Profile Photo">
-                  </div>
-                  <b class="caret d-none d-lg-block d-xl-block"></b>
-                  <p class="d-lg-none">
-                    Log out
-                  </p>
-                </a>
-                <ul class="dropdown-menu dropdown-navbar">
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Profile</a></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Settings</a></li>
-                  <li class="dropdown-divider"></li>
-                  <li class="nav-link"><a href="javascript:void(0)" class="nav-item dropdown-item">Log out</a></li>
-                </ul>
-              </li>
-              <li class="separator d-lg-none"></li>
             </ul>
           </div>
         </div>
       </nav>
-      <div class="modal modal-search fade" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="SEARCH">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <i class="tim-icons icon-simple-remove"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
       <!-- End Navbar -->
-      <!-- Modal -->
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal modal-search fade" id="checkoutModal" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">HERE IS YOUR FORM .THIS FORM CAN BE SHARED WITH THE EMPLOYEED OF YOUR ORGANIZATION TO ENSURE THE ACTIVITES ORGANISED FOR THEM ARE CURATED TO THEIR INTERESTS AND GOALS</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
+            <div class="modal-header" style="background-color: blueviolet; color: white;">
+              CHECKED OUT SUCCESSFULLY
+              <button type="button" class="close" aria-label="Close" style="color: white;"><a style="color: white;" href="dashboard.html">
+                <i class="tim-icons icon-simple-remove"></i>
+              </a>
               </button>
             </div>
-            <div class="modal-body">
-              <p>https://forms.gle/2dzXut5DB3YKzJMv8</p>
-              <br>
-              <p>Unique code (to be shared with employees) : 123252525</p>
-              <br>
-              <p>Secrets code (For admin purposes) : aRtPos</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+      <div class="modal modal-search fade" id="activityRegistered" tabindex="-1" role="dialog" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: blueviolet; color: white;">
+              You have successfully reserved the activity. Your Work Magic Buddy will contact you soon. Check your mail for details.
+              <button type="button" class="close" aria-label="Close" style="color: white;"><a style="color: white;" href="dashboard.html">
+                <i class="tim-icons icon-simple-remove"></i>
+              </a>
+              </button>
             </div>
           </div>
         </div>
       </div>
-      <!-- End Modal -->
       <div class="content">
-        <div class="row">
-          <div class="col-md-8">
-            <div class="card" style="text-align: center;">
-              <div class="card-header">
-                <h4 class="title">Share the unique form link with your employees and come back here to check the best activities and subscriptions suited to your team </h4>
-              </div>
-              <div class="card-body" >
-                <button class="btn-change6" data-toggle="modal" data-target="#exampleModal" style="width: fit-content; padding: 0 50px;"> Generate New Survey form</button>
-              </div>
-
-              <div class="card-header">
-                <h4 class="title">Alredy have a form and responses collected? Enter your form ID here to get the recommendations</h4>
-              </div>
-              <div class="card-body" style="text-align: center;">     
-                <SCRIPT LANGUAGE="JavaScript">
-                  function readText (form) {
-                      TestVar =form.inputbox.value;
-                      alert ("You typed: " + TestVar);
-                  }
-                  function writeText (form) {
-                      form.inputbox.value = "Have a nice day!"
-                  }
-                </SCRIPT>
-                <form NAME="myform" ACTION="" METHOD="GET">
-                  Enter form id in the box: <br>
-                  <input type="text"  NAME="inputbox" class="form-control" placeholder="Username" value="michael23" style="margin: auto; width: 50%;"><br>
-                  <input TYPE="button" class="btn-change6" NAME="button1" Value="Get recommendations" href="./recommendations.html" style="width: fit-content; padding: 0 50px;">
-                  </form>
-              </div>
+        <div class="row justify-content-center">
+          
+        </div>
+        <div class="row justify-content-center" style="align-items: center;">
+            <div class="col-lg-3">
+                <center>
+                    <h1 class="card-title large">Your Recommendations</h1>
+                    <h4>These are the recommendations generated based on your employee data and your subscription</h4>
+                  </center> 
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card card-user">
-              <div class="card-body">
-                <p class="card-text">
-                  <div class="author">
-                    <div class="block block-one"></div>
-                    <div class="block block-two"></div>
-                    <div class="block block-three"></div>
-                    <div class="block block-four"></div>
-                    <a href="javascript:void(0)">
-                      <img class="avatar" src="../assets/img/emilyz.jpg" alt="...">
-                      <h5 class="title">Mike Andrew</h5>
-                    </a>
-                    <p class="description">
-                      Ceo/Co-Founder
-                    </p>
+          <div class="col-lg-6 ">
+            <div class="content">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="card">
+                      <div class="card-body all-icons" style="margin-left: 40px; margin-right: 40px;">
+                        <div class="row">
+                          <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6">
+                            <div class="font-icon-detail">
+                              <div  class="justify-content-center" style="margin-left: 10px; margin-right: 10px;" >
+                                <img src="../assets/Blue Waves Profile Header (1).png"></img>
+                                <br/><br/>
+                                <h3 class="card-title">Introduction to Music theory</h3>
+                                <button class="btn-change9">Proceed</button>
+                              </div>
+                             
+                            </div>
+                          </div>
+                          <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6">
+                            <div class="font-icon-detail">
+                              <div  class="justify-content-center" style="margin-left: 10px; margin-right: 10px;" >
+                                <img src="../assets/Blue Waves Profile Header (2).png"></img>
+                                <br/><br/>
+                                <h3 class="card-title">Cooking tricks with Chef Khanna</h3>
+                                <button class="btn-change9" data-toggle="modal" data-target="#activityRegistered">Proceed</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6">
+                            <div class="font-icon-detail">
+                              <div  class="justify-content-center" style="margin-left: 10px; margin-right: 10px;" >
+                                <img src="../assets/Blue Waves Profile Header (3).png"></img>
+                                <br/><br/>
+                                <h3 class="card-title">The Art of Origami Advanced</h3>
+                                <button class="btn-change9" data-toggle="modal" data-target="#activityRegistered">Proceed</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6">
+                            <div class="font-icon-detail">
+                              <div  class="justify-content-center" style="margin-left: 10px; margin-right: 10px;" >
+                                <img src="../assets/Blue Waves Profile Header (4).png"></img>
+                                <br/><br/>
+                                <h3 class="card-title">Beat summer with Mixology</h3>
+                                <button class="btn-change9" data-toggle="modal" data-target="#activityRegistered">Proceed</button>
+                              </div>
+                              
+                            </div>
+                          </div>
+                          <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6">
+                            <div class="font-icon-detail">
+                              <div  class="justify-content-center" style="margin-left: 10px; margin-right: 10px;" >
+                                <img src="../assets/Blue Waves Profile Header (5).png"></img>
+                                <br/><br/>
+                                <h3 class="card-title">Quality life with Yoga</h3>
+                                <button class="btn-change9" data-toggle="modal" data-target="#activityRegistered">Proceed</button>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="font-icon-list col-lg-4 col-md-3 col-sm-4 col-xs-6 col-xs-6">
+                            <div class="font-icon-detail">
+                              <div  class="justify-content-center" style="margin-left: 10px; margin-right: 10px;" >
+                                <img src="../assets/Blue Waves Profile Header (6).png"></img>
+                                <br/><br/>
+                                <h3 class="card-title">Mandala Worshop Advanced</h3>
+                                <button class="btn-change9" data-toggle="modal" data-target="#activityRegistered">Proceed</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </p>
-                <div class="card-description">
-                  Do not be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
                 </div>
               </div>
-              <div class="card-footer">
-                <div class="button-container">
-                  <button href="javascript:void(0)" class="btn btn-icon btn-round btn-facebook">
-                    <i class="fab fa-facebook"></i>
-                  </button>
-                  <button href="javascript:void(0)" class="btn btn-icon btn-round btn-twitter">
-                    <i class="fab fa-twitter"></i>
-                  </button>
-                  <button href="javascript:void(0)" class="btn btn-icon btn-round btn-google">
-                    <i class="fab fa-google-plus"></i>
-                  </button>
+          </div>         
+          <div class="col-lg-3">
+            <div class="card card-chart">
+              <div class="card-header">
+                <center><h1 class="card-title">Exclusive Subscription</h1></center>
+                <hr style="background-color: white;"/><br>
+              </div>
+              <div class="card-body justify-content-center">
+                <div class="text-center">
+                  <h4>Activities Type: HYBRID</h4>
+                  <h4>Started On: 12 February, 2022</h4>
+                  <hr style="background-color: white;"/><br>
+                  <h3>USAGE</h3>
+                  <h4>Activities per Week: 1/2 consumed</h4>
+                  <h4>Teams: 3/10 consumed</h4>
+                  <hr style="background-color: white;"/><br>
+                  <button class="btn-change6 center" data-toggle="modal" data-target="#checkoutModal">Extend</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- Footer -->
       <footer class="footer">
         <div class="container-fluid">
           <ul class="nav">
@@ -313,8 +217,9 @@
           </div>
         </div>
       </footer>
-    </div>
+    <!-- End Footer -->
   </div>
+
   <div class="fixed-plugin">
     <div class="dropdown show-dropdown">
       <a href="#" data-toggle="dropdown">
@@ -355,6 +260,7 @@
       </ul>
     </div>
   </div>
+  
   <!--   Core JS Files   -->
   <script src="../assets/js/core/jquery.min.js"></script>
   <script src="../assets/js/core/popper.min.js"></script>
@@ -481,6 +387,13 @@
       });
     });
   </script>
+  <script>
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+      demo.initDashboardPageCharts();
+
+    });
+  </script>
   <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
   <script>
     window.TrackJS &&
@@ -490,5 +403,4 @@
       });
   </script>
 </body>
-
 </html>
