@@ -155,10 +155,10 @@
         <div class="row">
           <div class="col-md-12">
             <div class="card">
-              <div class="card-header">
+              <!-- <div class="card-header">
                 <h5 class="title">100 Awesome Nucleo Icons</h5>
                 <p class="category">Handcrafted by our friends from <a href="https://nucleoapp.com/?ref=1712">NucleoApp</a></p>
-              </div>
+              </div> -->
 
               <!-- <table class="table text-white sortable" id="tbl_users_list">
                 <thead>
@@ -173,16 +173,21 @@
                 </thead>
                 
               </table> -->
-              <table class="padding-0 table-full-width" id="tbl_users_list2">
-                <thead>
-                  <tr>
-                 <td ></td>
-                    <td></td>
-                    <td></td>
-               </tr>
-                </thead> 
-    
-              </table>
+              <div class="card-body all-icons" style="margin-left: 40px; margin-right: 40px;">
+                <table class="card-body all-icons" id="tbl_users_list2">
+                  <thead>
+                    <div class="row">
+                   <td ></td>
+                      <td></td>
+                      <td></td>
+                    </div>
+                  </thead> 
+      
+                </table>
+               
+
+                  </div>
+        
             </div>
           </div>
         </div>
@@ -432,8 +437,9 @@
          
          const newDiv = document.createElement("div");
          newDiv.classList.add("font-icon-list");
-         newDiv.classList.add("col-lg-4");
+         newDiv.classList.add("col-lg-12");
          newDiv.classList.add("col-sm-4"); newDiv.classList.add("col-xs-6"); newDiv.classList.add("col-xs-6");
+        //  newDiv.setAttribute("style","width: 100%;")
          const newDiv2 = document.createElement("div");
          newDiv2.classList.add("font-icon-detail");
          newDiv2.classList.add("justify-content-center");
