@@ -453,7 +453,16 @@
          const newContent = document.createTextNode(childData.conf_name);
          newDiv4.appendChild(newContent);
          newDiv2.appendChild(newDiv4);
-       
+         const newDiv6 = document.createElement("Button");
+         newDiv6.classList.add("btn-change9");
+         const newDiv5 = document.createElement("a");
+         const newContent2 = document.createTextNode("More details");
+         newDiv5.appendChild(newContent2);
+         newDiv5.setAttribute("href","./detail.html");
+         newDiv6.appendChild(newDiv5);
+         newDiv2.appendChild(newDiv6);
+
+
         if(ColIndex == 0){
           var name = row.insertCell(ColIndex);
           name.appendChild(newDiv);
